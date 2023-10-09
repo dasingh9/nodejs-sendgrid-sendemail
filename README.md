@@ -1,10 +1,10 @@
 # nodejs-sendgrid-sendemail
-Nodejs sample code to Send email using SendGrid API
+Nodejs sample code to Send email using SendGrid API. You can also copy the `send-email-service.js` to your other projects for email functionality.
 
 1. Create an account in SendGrid and Sign in
-2. Create an API key in SendGrid referring to the instruction in the Integration Guide menu
+2. Create an API key in SendGrid referring to the instructions in the Integration Guide menu in your SendGrid account
 3. Clone this repo to your local and open the folder in your favourite code editor
-4. Create a .env file and copy the below environment variable to .env file. Also replace the API KEY in this file.
+4. Create a `.env` file and copy the below environment variable to .env file. Also replace `YOUR_API_KEY` KEY in this file.
    ```
    SENDGRID_API_KEY=YOUR_API_KEY
    ```
