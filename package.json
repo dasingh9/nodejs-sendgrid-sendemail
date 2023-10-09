@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-sendgrid-sendemail",
+  "version": "1.0.0",
+  "description": "Nodejs sample code to Send email using SendGrid API",
+  "main": "send-email-service.js",
+  "scripts": {
+    "start": "node send-email-test",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dasingh9/nodejs-sendgrid-sendemail.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dasingh9/nodejs-sendgrid-sendemail/issues"
+  },
+  "homepage": "https://github.com/dasingh9/nodejs-sendgrid-sendemail#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "dotenv": "^16.3.1"
+  }
+}
