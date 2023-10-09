@@ -10,7 +10,7 @@ const EmailService = class {
       await sgMail.send(msg);
       console.log('Email sent to', msg.to);
     } catch (error) {
-      console.log("Error occured:", error);
+      console.log("sendEmail failed:", error);
     }
   }
 }
